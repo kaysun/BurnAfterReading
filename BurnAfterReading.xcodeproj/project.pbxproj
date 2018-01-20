@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3ABEBFA52012C8E800A3DC95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABEBFA42012C8E800A3DC95 /* AppDelegate.m */; };
-		3ABEBFA82012C8E800A3DC95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABEBFA72012C8E800A3DC95 /* ViewController.m */; };
 		3ABEBFAB2012C8E800A3DC95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABEBFA92012C8E800A3DC95 /* Main.storyboard */; };
 		3ABEBFAE2012C8E800A3DC95 /* BurnAfterReading.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3ABEBFAC2012C8E800A3DC95 /* BurnAfterReading.xcdatamodeld */; };
 		3ABEBFB02012C8E800A3DC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABEBFAF2012C8E800A3DC95 /* Assets.xcassets */; };
@@ -16,6 +14,17 @@
 		3ABEBFB62012C8E800A3DC95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABEBFB52012C8E800A3DC95 /* main.m */; };
 		3ABEBFC02012C8E800A3DC95 /* BurnAfterReadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABEBFBF2012C8E800A3DC95 /* BurnAfterReadingTests.m */; };
 		3ABEBFCB2012C8E800A3DC95 /* BurnAfterReadingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABEBFCA2012C8E800A3DC95 /* BurnAfterReadingUITests.m */; };
+		3ABEBFE72012CE0D00A3DC95 /* BRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABEBFE12012CE0D00A3DC95 /* BRAppDelegate.m */; };
+		3ABEBFE82012CE0D00A3DC95 /* BRPersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABEBFE22012CE0D00A3DC95 /* BRPersonalCenterViewController.m */; };
+		3ABEBFE92012CE0D00A3DC95 /* BRFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABEBFE62012CE0D00A3DC95 /* BRFlowViewController.m */; };
+		3ABEBFF42012D53100A3DC95 /* tabbar_home_h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ABEBFF02012D53100A3DC95 /* tabbar_home_h@3x.png */; };
+		3ABEBFF52012D53100A3DC95 /* tabbar_me_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ABEBFF12012D53100A3DC95 /* tabbar_me_h@2x.png */; };
+		3ABEBFF62012D53100A3DC95 /* tabbar_me_h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ABEBFF22012D53100A3DC95 /* tabbar_me_h@3x.png */; };
+		3ABEBFF72012D53100A3DC95 /* tabbar_home_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ABEBFF32012D53100A3DC95 /* tabbar_home_h@2x.png */; };
+		3ABEBFFC2012EB9000A3DC95 /* tabbar_home@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ABEBFF82012EB8F00A3DC95 /* tabbar_home@3x.png */; };
+		3ABEBFFD2012EB9000A3DC95 /* tabbar_me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ABEBFF92012EB9000A3DC95 /* tabbar_me@2x.png */; };
+		3ABEBFFE2012EB9000A3DC95 /* tabbar_me@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ABEBFFA2012EB9000A3DC95 /* tabbar_me@3x.png */; };
+		3ABEBFFF2012EB9000A3DC95 /* tabbar_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ABEBFFB2012EB9000A3DC95 /* tabbar_home@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +46,6 @@
 
 /* Begin PBXFileReference section */
 		3ABEBFA02012C8E800A3DC95 /* BurnAfterReading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurnAfterReading.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3ABEBFA32012C8E800A3DC95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3ABEBFA42012C8E800A3DC95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3ABEBFA62012C8E800A3DC95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3ABEBFA72012C8E800A3DC95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3ABEBFAA2012C8E800A3DC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3ABEBFAD2012C8E800A3DC95 /* BurnAfterReading.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BurnAfterReading.xcdatamodel; sourceTree = "<group>"; };
 		3ABEBFAF2012C8E800A3DC95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +58,20 @@
 		3ABEBFC62012C8E800A3DC95 /* BurnAfterReadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurnAfterReadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABEBFCA2012C8E800A3DC95 /* BurnAfterReadingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BurnAfterReadingUITests.m; sourceTree = "<group>"; };
 		3ABEBFCC2012C8E800A3DC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ABEBFE12012CE0D00A3DC95 /* BRAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAppDelegate.m; sourceTree = "<group>"; };
+		3ABEBFE22012CE0D00A3DC95 /* BRPersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRPersonalCenterViewController.m; sourceTree = "<group>"; };
+		3ABEBFE32012CE0D00A3DC95 /* BRFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRFlowViewController.h; sourceTree = "<group>"; };
+		3ABEBFE42012CE0D00A3DC95 /* BRPersonalCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPersonalCenterViewController.h; sourceTree = "<group>"; };
+		3ABEBFE52012CE0D00A3DC95 /* BRAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAppDelegate.h; sourceTree = "<group>"; };
+		3ABEBFE62012CE0D00A3DC95 /* BRFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRFlowViewController.m; sourceTree = "<group>"; };
+		3ABEBFF02012D53100A3DC95 /* tabbar_home_h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home_h@3x.png"; sourceTree = "<group>"; };
+		3ABEBFF12012D53100A3DC95 /* tabbar_me_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_me_h@2x.png"; sourceTree = "<group>"; };
+		3ABEBFF22012D53100A3DC95 /* tabbar_me_h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_me_h@3x.png"; sourceTree = "<group>"; };
+		3ABEBFF32012D53100A3DC95 /* tabbar_home_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home_h@2x.png"; sourceTree = "<group>"; };
+		3ABEBFF82012EB8F00A3DC95 /* tabbar_home@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home@3x.png"; sourceTree = "<group>"; };
+		3ABEBFF92012EB9000A3DC95 /* tabbar_me@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_me@2x.png"; sourceTree = "<group>"; };
+		3ABEBFFA2012EB9000A3DC95 /* tabbar_me@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_me@3x.png"; sourceTree = "<group>"; };
+		3ABEBFFB2012EB9000A3DC95 /* tabbar_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,16 +122,14 @@
 		3ABEBFA22012C8E800A3DC95 /* BurnAfterReading */ = {
 			isa = PBXGroup;
 			children = (
-				3ABEBFA32012C8E800A3DC95 /* AppDelegate.h */,
-				3ABEBFA42012C8E800A3DC95 /* AppDelegate.m */,
-				3ABEBFA62012C8E800A3DC95 /* ViewController.h */,
-				3ABEBFA72012C8E800A3DC95 /* ViewController.m */,
+				3ABEBFE02012CE0D00A3DC95 /* BR */,
 				3ABEBFA92012C8E800A3DC95 /* Main.storyboard */,
 				3ABEBFAF2012C8E800A3DC95 /* Assets.xcassets */,
 				3ABEBFB12012C8E800A3DC95 /* LaunchScreen.storyboard */,
 				3ABEBFB42012C8E800A3DC95 /* Info.plist */,
 				3ABEBFB52012C8E800A3DC95 /* main.m */,
 				3ABEBFAC2012C8E800A3DC95 /* BurnAfterReading.xcdatamodeld */,
+				3ABEBFEA2012D37C00A3DC95 /* resource */,
 			);
 			path = BurnAfterReading;
 			sourceTree = "<group>";
@@ -133,6 +150,42 @@
 				3ABEBFCC2012C8E800A3DC95 /* Info.plist */,
 			);
 			path = BurnAfterReadingUITests;
+			sourceTree = "<group>";
+		};
+		3ABEBFE02012CE0D00A3DC95 /* BR */ = {
+			isa = PBXGroup;
+			children = (
+				3ABEBFE52012CE0D00A3DC95 /* BRAppDelegate.h */,
+				3ABEBFE12012CE0D00A3DC95 /* BRAppDelegate.m */,
+				3ABEBFE32012CE0D00A3DC95 /* BRFlowViewController.h */,
+				3ABEBFE62012CE0D00A3DC95 /* BRFlowViewController.m */,
+				3ABEBFE42012CE0D00A3DC95 /* BRPersonalCenterViewController.h */,
+				3ABEBFE22012CE0D00A3DC95 /* BRPersonalCenterViewController.m */,
+			);
+			path = BR;
+			sourceTree = "<group>";
+		};
+		3ABEBFEA2012D37C00A3DC95 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				3ABEBFEB2012D37C00A3DC95 /* tab */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		3ABEBFEB2012D37C00A3DC95 /* tab */ = {
+			isa = PBXGroup;
+			children = (
+				3ABEBFFB2012EB9000A3DC95 /* tabbar_home@2x.png */,
+				3ABEBFF82012EB8F00A3DC95 /* tabbar_home@3x.png */,
+				3ABEBFF92012EB9000A3DC95 /* tabbar_me@2x.png */,
+				3ABEBFFA2012EB9000A3DC95 /* tabbar_me@3x.png */,
+				3ABEBFF32012D53100A3DC95 /* tabbar_home_h@2x.png */,
+				3ABEBFF02012D53100A3DC95 /* tabbar_home_h@3x.png */,
+				3ABEBFF12012D53100A3DC95 /* tabbar_me_h@2x.png */,
+				3ABEBFF22012D53100A3DC95 /* tabbar_me_h@3x.png */,
+			);
+			path = tab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +294,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ABEBFF62012D53100A3DC95 /* tabbar_me_h@3x.png in Resources */,
 				3ABEBFB32012C8E800A3DC95 /* LaunchScreen.storyboard in Resources */,
+				3ABEBFFD2012EB9000A3DC95 /* tabbar_me@2x.png in Resources */,
+				3ABEBFFE2012EB9000A3DC95 /* tabbar_me@3x.png in Resources */,
+				3ABEBFF42012D53100A3DC95 /* tabbar_home_h@3x.png in Resources */,
 				3ABEBFB02012C8E800A3DC95 /* Assets.xcassets in Resources */,
+				3ABEBFFC2012EB9000A3DC95 /* tabbar_home@3x.png in Resources */,
+				3ABEBFFF2012EB9000A3DC95 /* tabbar_home@2x.png in Resources */,
+				3ABEBFF72012D53100A3DC95 /* tabbar_home_h@2x.png in Resources */,
+				3ABEBFF52012D53100A3DC95 /* tabbar_me_h@2x.png in Resources */,
 				3ABEBFAB2012C8E800A3DC95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,10 +329,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ABEBFA82012C8E800A3DC95 /* ViewController.m in Sources */,
 				3ABEBFAE2012C8E800A3DC95 /* BurnAfterReading.xcdatamodeld in Sources */,
+				3ABEBFE92012CE0D00A3DC95 /* BRFlowViewController.m in Sources */,
 				3ABEBFB62012C8E800A3DC95 /* main.m in Sources */,
-				3ABEBFA52012C8E800A3DC95 /* AppDelegate.m in Sources */,
+				3ABEBFE82012CE0D00A3DC95 /* BRPersonalCenterViewController.m in Sources */,
+				3ABEBFE72012CE0D00A3DC95 /* BRAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

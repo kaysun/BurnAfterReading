@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BRPersonalCenterViewController.h
 //  BurnAfterReading
 //
 //  Created by 孙玲 on 2018/1/20.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BRPersonalCenterViewController : UIViewController
 
 @end
-

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  BRAppDelegate.h
 //  BurnAfterReading
 //
 //  Created by 孙玲 on 2018/1/20.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface BRAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
