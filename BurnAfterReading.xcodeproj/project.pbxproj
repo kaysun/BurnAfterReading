@@ -163,13 +163,10 @@
 		3ABEBFE02012CE0D00A3DC95 /* BR */ = {
 			isa = PBXGroup;
 			children = (
+				3AD7BD04201DE5AE004191B3 /* Controller */,
 				3AD7BCFA201DCC8B004191B3 /* Data */,
 				3ABEBFE52012CE0D00A3DC95 /* BRAppDelegate.h */,
 				3ABEBFE12012CE0D00A3DC95 /* BRAppDelegate.m */,
-				3ABEBFE32012CE0D00A3DC95 /* BRFlowViewController.h */,
-				3ABEBFE62012CE0D00A3DC95 /* BRFlowViewController.m */,
-				3ABEBFE42012CE0D00A3DC95 /* BRPersonalCenterViewController.h */,
-				3ABEBFE22012CE0D00A3DC95 /* BRPersonalCenterViewController.m */,
 				3ABEC0002012FCB900A3DC95 /* BRNavigationViewController.h */,
 				3ABEC0012012FCB900A3DC95 /* BRNavigationViewController.m */,
 			);
@@ -206,6 +203,17 @@
 				3AD7BCFC201DCD5F004191B3 /* BRContentItem.m */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		3AD7BD04201DE5AE004191B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3ABEBFE32012CE0D00A3DC95 /* BRFlowViewController.h */,
+				3ABEBFE62012CE0D00A3DC95 /* BRFlowViewController.m */,
+				3ABEBFE42012CE0D00A3DC95 /* BRPersonalCenterViewController.h */,
+				3ABEBFE22012CE0D00A3DC95 /* BRPersonalCenterViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
