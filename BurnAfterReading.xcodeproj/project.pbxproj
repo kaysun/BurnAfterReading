@@ -28,6 +28,7 @@
 		3ABEC0022012FCB900A3DC95 /* BRNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABEC0012012FCB900A3DC95 /* BRNavigationViewController.m */; };
 		3AD7BCFD201DCD5F004191B3 /* BRContentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD7BCFC201DCD5F004191B3 /* BRContentItem.m */; };
 		3AD7BD07201DE695004191B3 /* BRContentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD7BD06201DE695004191B3 /* BRContentDetailViewController.m */; };
+		3AD7BD0C201DEAC6004191B3 /* BRCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD7BD0B201DEAC6004191B3 /* BRCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,8 @@
 		3AD7BD03201DD09D004191B3 /* BRPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPrefixHeader.pch; sourceTree = "<group>"; };
 		3AD7BD05201DE695004191B3 /* BRContentDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRContentDetailViewController.h; sourceTree = "<group>"; };
 		3AD7BD06201DE695004191B3 /* BRContentDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRContentDetailViewController.m; sourceTree = "<group>"; };
+		3AD7BD0A201DEAC6004191B3 /* BRCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRCollectionViewController.h; sourceTree = "<group>"; };
+		3AD7BD0B201DEAC6004191B3 /* BRCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +215,7 @@
 		3AD7BD04201DE5AE004191B3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3AD7BD09201DEAA2004191B3 /* sub */,
 				3ABEBFE32012CE0D00A3DC95 /* BRFlowViewController.h */,
 				3ABEBFE62012CE0D00A3DC95 /* BRFlowViewController.m */,
 				3ABEBFE42012CE0D00A3DC95 /* BRPersonalCenterViewController.h */,
@@ -227,6 +231,15 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		3AD7BD09201DEAA2004191B3 /* sub */ = {
+			isa = PBXGroup;
+			children = (
+				3AD7BD0A201DEAC6004191B3 /* BRCollectionViewController.h */,
+				3AD7BD0B201DEAC6004191B3 /* BRCollectionViewController.m */,
+			);
+			path = sub;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ABEBFAE2012C8E800A3DC95 /* BurnAfterReading.xcdatamodeld in Sources */,
+				3AD7BD0C201DEAC6004191B3 /* BRCollectionViewController.m in Sources */,
 				3ABEBFE92012CE0D00A3DC95 /* BRFlowViewController.m in Sources */,
 				3ABEBFB62012C8E800A3DC95 /* main.m in Sources */,
 				3AD7BD07201DE695004191B3 /* BRContentDetailViewController.m in Sources */,
