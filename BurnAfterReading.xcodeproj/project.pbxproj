@@ -27,6 +27,7 @@
 		3ABEBFFF2012EB9000A3DC95 /* tabbar_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ABEBFFB2012EB9000A3DC95 /* tabbar_home@2x.png */; };
 		3ABEC0022012FCB900A3DC95 /* BRNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABEC0012012FCB900A3DC95 /* BRNavigationViewController.m */; };
 		3AD7BCFD201DCD5F004191B3 /* BRContentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD7BCFC201DCD5F004191B3 /* BRContentItem.m */; };
+		3AD7BD07201DE695004191B3 /* BRContentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD7BD06201DE695004191B3 /* BRContentDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,8 @@
 		3AD7BCFB201DCD5F004191B3 /* BRContentItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRContentItem.h; sourceTree = "<group>"; };
 		3AD7BCFC201DCD5F004191B3 /* BRContentItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRContentItem.m; sourceTree = "<group>"; };
 		3AD7BD03201DD09D004191B3 /* BRPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRPrefixHeader.pch; sourceTree = "<group>"; };
+		3AD7BD05201DE695004191B3 /* BRContentDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRContentDetailViewController.h; sourceTree = "<group>"; };
+		3AD7BD06201DE695004191B3 /* BRContentDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRContentDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,8 +166,9 @@
 		3ABEBFE02012CE0D00A3DC95 /* BR */ = {
 			isa = PBXGroup;
 			children = (
+				3AD7BD08201DE6A6004191B3 /* View */,
 				3AD7BD04201DE5AE004191B3 /* Controller */,
-				3AD7BCFA201DCC8B004191B3 /* Data */,
+				3AD7BCFA201DCC8B004191B3 /* Item */,
 				3ABEBFE52012CE0D00A3DC95 /* BRAppDelegate.h */,
 				3ABEBFE12012CE0D00A3DC95 /* BRAppDelegate.m */,
 				3ABEC0002012FCB900A3DC95 /* BRNavigationViewController.h */,
@@ -196,13 +200,13 @@
 			path = tab;
 			sourceTree = "<group>";
 		};
-		3AD7BCFA201DCC8B004191B3 /* Data */ = {
+		3AD7BCFA201DCC8B004191B3 /* Item */ = {
 			isa = PBXGroup;
 			children = (
 				3AD7BCFB201DCD5F004191B3 /* BRContentItem.h */,
 				3AD7BCFC201DCD5F004191B3 /* BRContentItem.m */,
 			);
-			path = Data;
+			path = Item;
 			sourceTree = "<group>";
 		};
 		3AD7BD04201DE5AE004191B3 /* Controller */ = {
@@ -212,8 +216,17 @@
 				3ABEBFE62012CE0D00A3DC95 /* BRFlowViewController.m */,
 				3ABEBFE42012CE0D00A3DC95 /* BRPersonalCenterViewController.h */,
 				3ABEBFE22012CE0D00A3DC95 /* BRPersonalCenterViewController.m */,
+				3AD7BD05201DE695004191B3 /* BRContentDetailViewController.h */,
+				3AD7BD06201DE695004191B3 /* BRContentDetailViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		3AD7BD08201DE6A6004191B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +373,7 @@
 				3ABEBFAE2012C8E800A3DC95 /* BurnAfterReading.xcdatamodeld in Sources */,
 				3ABEBFE92012CE0D00A3DC95 /* BRFlowViewController.m in Sources */,
 				3ABEBFB62012C8E800A3DC95 /* main.m in Sources */,
+				3AD7BD07201DE695004191B3 /* BRContentDetailViewController.m in Sources */,
 				3AD7BCFD201DCD5F004191B3 /* BRContentItem.m in Sources */,
 				3ABEBFE82012CE0D00A3DC95 /* BRPersonalCenterViewController.m in Sources */,
 				3ABEC0022012FCB900A3DC95 /* BRNavigationViewController.m in Sources */,
